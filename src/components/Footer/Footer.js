@@ -315,11 +315,6 @@ class Component extends React.PureComponent {
         </svg>
         <div className={classes.content}>
           <Secuence animation={{ show, independent: true }}>
-            <SocialLinks
-              className={classes.socialLinks}
-              itemClassName={classes.socialLinksItem}
-              animateY={false}
-            />
             <Legal
               className={classes.legal}
             />

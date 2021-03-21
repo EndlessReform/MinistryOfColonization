@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Soul Extract',
-        short_name: 'Soul Extract',
+        name: 'Ministry of Colonization',
+        short_name: 'MoC',
         start_url: '/',
         background_color: '#000000',
         theme_color: '#000000',
@@ -24,12 +24,6 @@ module.exports = {
       resolve: `gatsby-plugin-layout`,
       options: {
         component: require.resolve(`./src/layouts/Template`)
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-64916263-1'
       }
     }
   ]

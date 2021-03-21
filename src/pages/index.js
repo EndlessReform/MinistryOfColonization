@@ -58,7 +58,7 @@ class Component extends React.Component {
     return (
       <Secuence ref={ref => (this.secuenceElement = ref)}>
         <div className={classes.root}>
-          <div className={classes.content}>
+          <div className={classes.content} style={{display: "flex", alignItems: "center"}}>
             <Brand
               className={classes.brand}
               onLinkStart={this.onLinkStart}
@@ -67,10 +67,6 @@ class Component extends React.Component {
               className={classes.menu}
               animation={{ duration: { enter: 400 } }}
               scheme='expand'
-              onLinkStart={this.onLinkStart}
-            />
-            <SocialLinks
-              className={classes.social}
               onLinkStart={this.onLinkStart}
             />
           </div>

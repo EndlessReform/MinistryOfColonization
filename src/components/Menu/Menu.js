@@ -189,30 +189,30 @@ class Component extends React.PureComponent {
           ref={ref => (this.element = ref)}
           {...etc}
         >
-          <Link href='/news' {...linkProps}>
+          <Link href='/why' {...linkProps}>
             <Text
               animation={{ animate: animateText }}
               audio={{ silent: !animateText }}
             >
-              News
+              Why
             </Text>
           </Link>
           <b className={cx(classes.item, classes.divisor)}>|</b>
-          <Link href='/music' {...linkProps}>
+          <Link href='/how' {...linkProps}>
             <Text
               animation={{ animate: animateText }}
               audio={{ silent: !animateText }}
             >
-              Music
+                How
             </Text>
           </Link>
           <b className={cx(classes.item, classes.divisor)}>|</b>
-          <Link href='/charity' {...linkProps}>
+          <Link href='/faq' {...linkProps}>
             <Text
               animation={{ animate: animateText }}
               audio={{ silent: !animateText }}
             >
-              Charity
+              FAQ
             </Text>
           </Link>
           <b className={cx(classes.item, classes.divisor)}>|</b>

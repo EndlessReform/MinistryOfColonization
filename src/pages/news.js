@@ -37,11 +37,6 @@ class News extends React.Component {
               data={{ ...post, id: 'post' + index }}
             />
           ))}
-          <p className={classes.seeMore}>
-            <Text>See more at</Text>
-            {' '}
-            <Link href='https://facebook.com/soulextract/posts' target='facebook'><Text>facebook.com/soulextract.</Text></Link>
-          </p>
         </Secuence>
       </Main>
     );
