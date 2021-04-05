@@ -13,6 +13,6 @@
   <img src="https://img.shields.io/badge/powered%20by-arwes-02b2d4.svg" alt="arwes" />
 </a>
 
-This website is a very lightly edited fork of the open-source SoulExtract website, reused for a final project on the Fermi Paradox and human existential risk. For the philosophy behind the project, read `writeup.md`, also in the home directory.
+This website is my final project in the University of Chicago's Big Problems course on the Fermi Paradox and human existential risk. For the philosophy behind the project, read `writeup.md`, also in the home directory. 
 
-The website was powered by the **[Arwes](https://arwes.dev)** project.
+Credit for the code goes entirely to the music website SoulExtract, of which this is a fork. Many thanks to them for a great and extensible design! The UI is powered by the **[Arwes](https://arwes.dev)** project.
